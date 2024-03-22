@@ -1,1 +1,826 @@
 
+<html lang="en" dir="ltr" class=" js">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/instantsearch.css@8.0.0/themes/reset-min.css">
+        <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.min.css">
+        <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" media="all" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+    </head>
+    <body>
+    <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+        <div class="row g-0 bannerimage">
+            <div class="row g-0 waveupper">
+                <div class="col-md-2 col-xs-1 col-1">
+                    <div class="wavelogo">
+                        <div>
+                            <a class="navbar-brand" href="/en" title="Home" rel="home">
+                                <img src="/AES-logo21.svg" alt="Home">
+                            </a>
+                        </div>
+                    </div>
+                    <img class="uppercurve" src="/assets/images/graphics/wave-upper.svg" alt="uppercurve">
+                        <a class="logo navbar-btn float-start" href="/en" title=" Home ">
+					            <img src="/textonlylogo.svg" alt="Home" class="textlogo img-adaptive pt-1">
+                        </a>
+                </div>
+
+                <div class="col-md-10 col-xs-11 col-11">
+                    <nav class="bg-white navbar-expand-lg navbar fixed-top" id="autocollapse">
+                        <div class="container-fluid">
+                            <div>
+                                <div id="block-aesbase-overlaymenu">
+                                    <div>
+                                        <div class="field--items">
+                                            <div class="field--item">
+                                                <a class="d-lg-block d-none nav-link overlay-btn desktop-last display-none-important" id="overlay-btn">
+                                                    <i class="fas fa-bars"></i><div class="d-none d-lg-inline">  Menu</div>
+                                                </a>
+                                                <div id="myNav" class="overlay-main">
+                                                    <div class="overlay-content row">
+                                                        <div class="col-lg-4 offset-lg-1 col-sm-6 offset-sm-1">
+                                                            <ul class="product-cats list-unstyled"><li class="pb-3"><a class="no-dash" href="/en/product/bearing-protection">Bearing Protection</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/product/cartridge-mechanical-seals">Cartridge Mechanical Seals</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/product/component-seals">Component Seals</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/product/gas-seals">Gas Seals</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/product/gland-packing">Gland Packing</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/product/seal-support-systems">Seal Support System</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/services/seal-refurbishment">Seal Refurbishment</a></li>
+                                                            </ul></div>
+                                                        <div class="col-lg-3 d-none d-md-block">
+                                                            <ul class="about-us-cats list-unstyled"><li class="pb-3"><a class="no-dash" href="/en/careers">Careers</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/about-us/certifications-and-standards">Certifications and Standards</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/contact-us">Contact Us</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/customer-portal">Customer Portal</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/services/customer-training">Customer Training</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/locations">Locations</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/article">News</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/about-us/sustainability">Sustainability</a></li>
+                                                            </ul></div>
+                                                        <div class="col-lg-3 col-sm-4">
+                                                            <ul class="resource-cats list-unstyled"><li class="pb-3"><a class="no-dash" href="/en/resources/academy">Academy</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/resources/api-plans">API Plans</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/resources/case-studies">Case Studies</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/resources/industry-guides">Industry Guides</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/resources/product-brochure">Product Brochures</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/resources/video">Video</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/resources/whitepapers">White Papers</a></li>
+                                                                <li class="pb-3"><a class="no-dash" href="/en/terms-and-conditions">Legal &amp; Policies</a></li>
+                                                            </ul></div>
+                                                        <div class="col-lg-4 offset-lg-1 col-sm-6 offset-sm-1">
+                                                            <ul class="overlay-menu-icons d-inline-flex"><li class="sitemap-overlay-icon me-4"><a href="/sitemap" class="no-dash"><i class="fas fa-sitemap fa-lg"></i></a></li>
+                                                                <li class="twitter-overlay-icon me-4"><a href="https://twitter.com/AESSEALplc" class="no-dash"><i class="fab fa-twitter fa-lg"></i></a></li>
+                                                                <li class="youtube-overlay-icon me-4"><a href="https://www.youtube.com/channel/UCgMnROdfT9mJcgCbIkZWjQA/videos" class="no-dash"><i class="fab fa-youtube fa-lg"></i></a></li>
+                                                                <li class="linkedin-overlay-icon me-4"><a href="http://www.linkedin.com/company/aesseal" class="no-dash"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
+                                                            </ul></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bootstrap-navbar" aria-controls="bootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="bootstrap-navbar">
+                                <nav role="navigation" aria-labelledby="block-aesbase-main-menu-menu" id="block-aesbase-main-menu">       
+                                    <ul class="menu menu--main navbar-nav">
+                                        <li class="nav-item">
+                                            <a href="/en/about-us" title="About Us" class="nav-link" data-drupal-link-system-path="node/318">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/en/article" title="Corporate News" class="nav-link" data-drupal-link-system-path="article">Articles</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/en/industry" title="Industry Sealing Solutions" class="nav-link is-active" data-drupal-link-system-path="node/905">Industry</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/en/locations" title="Find our Premises" class="nav-link" data-drupal-link-system-path="locations">Locations</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/en/product" title="Search Product Categories" class="nav-link" data-drupal-link-system-path="node/919">Products</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/en/resources" title="Brochures &amp; Downloads" class="nav-link" data-drupal-link-system-path="node/1425">Resources</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/en/services" title="Services" class="nav-link" data-drupal-link-system-path="node/896">Services</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="section-shadow"></div>
+            </div>
+            <div class="row g-0">
+                <div class="scroll-nav">
+                    <div>
+                        <div id="block-navplaceholder">
+                            <div>
+                                <div class="field--items">
+                                    <div class="field--item">
+                                        <div class="link-light my-3">
+                                            <a class="link-light no-underline d-none d-lg-inline-block" rel="no-follow" href="/"><i class="fas fa-home ms-4"></i> Home </a>
+                                            <a id="overlay-search" class="link-light ms-4 no-underline search-btn" rel="no-follow"><i class="fas fa-search"></i> Search </a>
+                                            <a class="link-light ms-4 no-underline" rel="no-follow" href="#primary" data-bs-toggle="offcanvas" aria-controls="offcanvasprimary"><i class="fas fa-language"></i> Language </a>
+                                            <a id="overlay-share" class="link-light ms-4 no-underline share-btn" rel="no-follow"><i class="fas fa-share-alt"></i> Share</a>
+                                            <a class="link-light ms-4 no-underline" rel="no-follow" href="/en/contact-us"><i class="fas fa-question-circle"></i> Contact Us </a>
+                                            <a class="link-light ms-4 no-underline d-none d-lg-inline-block" rel="no-follow" href="/en/services/customer-portal"><i class="fas fa-sign-in-alt"></i> Log In </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+  <div class="row no-padding g-0">
+    	    	      <div class="preface preface-flex-margin text-bg-primary py-3">
+          <div class="row py-10">
+            <div class="col-xl-7 col-lg-7 col-md-7 offset-xl-2 offset-lg-2 offset-md-1">
+	              <div>
+      <div class="page-title">
+  <h1>
+<span>Industry</span>
+</h1>
+
+</div>
+
+<div id="block-aesbase-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+        <nav aria-label="You are here:">
+  <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+          <a href="/en">Home</a>
+        </li>
+            </ol>
+</nav>
+
+
+  </div>
+
+  </div>
+
+            </div>
+                                          <div class="col-xl-3 col-lg-3 col-md-4 d-sm-none d-md-block position-relative">
+                    <div>
+    <div id="block-aesbase-banner29by29video" class="d-none d-md-flex">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"><div class="banner-vid" style="bottom: -152px;">
+                <video id="bannerVid" class="w-100" autoplay="" muted="" alt="Cover artwork for - 29by29 magazine. AES Engineering Ltd committed to invest £29 million by the year 2029 on environmental projects."><source src="https://static.aesseal.com/graphics/29by29_render.mp4" type="video/mp4"></video></div></div>
+      </div>
+</div>
+
+
+</div>
+
+  </div>
+
+                </div>
+                                    </div>
+	      </div>
+	          </div>
+
+      <div class="row wavelower no-padding g-0">
+      <div class="col-lg-9 col-md-8 col-0 g-0 no-padding">
+        <div class="bottom-gap">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-12 g-0 no-padding position-relative">
+        <img class="curve-down" src="/assets/images/graphics/wave-lower.svg">
+	      		        <div>
+    <div id="block-aesbase-submenutopbar">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"><div class="lower-wave">
+<div class="row">
+<div class="col-7 text-end"><p>Learn About Our Investment Pledge</p></div>
+<div class="col-5 text-center"><a class="no-dash icon-round-btn" href="https://aesdigitalbooks.s3.eu-west-1.amazonaws.com/29by29-03/index.html" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Click here to Read More" data-bs-original-title="" title=""><i class="fas fa-book-reader fa-2x"></i></a></div>
+</div>
+</div></div>
+      </div>
+</div>
+
+
+</div>
+
+  </div>
+
+	            </div>
+    </div>
+  
+  <div class="row no-padding">
+      </div>
+</div>
+
+  <main role="main" class="container-fluid">
+    <div class="row">
+
+                              <div class="col-sm-12 mb-4 pb-1" role="heading">
+              <div>
+    <div data-drupal-messages-fallback="" class="hidden"></div>
+
+  </div>
+
+          </div>
+              
+                            <aside class="offcanvas offcanvas-start" tabindex="-1" id="primary" aria-labelledby="primary">
+          <div class="offcanvas-title" id="primary">
+            <button type="button" class="btn-close text-reset float-end mt-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            
+  <div class="p-3 bg-light">
+    <div class="language-switcher-language-url" id="block-languageswitcher-2" role="navigation">
+
+
+  <h2>Select Language</h2>
+
+  <ul class="links"><li hreflang="en" data-drupal-link-system-path="node/905" class="is-active"><a href="/en/industry" class="language-link is-active" hreflang="en" data-drupal-link-system-path="node/905">English</a></li><li hreflang="es" data-drupal-link-system-path="node/905"><a href="/es/industria" class="language-link" hreflang="es" data-drupal-link-system-path="node/905">Español</a></li><li hreflang="fr" data-drupal-link-system-path="node/905"><a href="/fr/industry" class="language-link" hreflang="fr" data-drupal-link-system-path="node/905">Français</a></li><li hreflang="zh-hans" data-drupal-link-system-path="node/905"><a href="/zh-hans/%E8%A1%8C%E4%B8%9A" class="language-link" hreflang="zh-hans" data-drupal-link-system-path="node/905">Chinese, Simplified</a></li></ul>
+
+</div>
+
+  </div>
+
+          </div>
+        </aside>
+              
+            <section class="col-sm-12 g-0 pt-5">
+
+                
+                                      
+
+                  
+        
+          
+                          <a id="main-content"></a>
+            <div>
+    <div id="block-aesbase-content">
+
+
+
+  <article data-history-node-id="905" class="page full clearfix">
+  
+  
+
+  
+  <div>
+      <div class="layout layout--onecol">
+    <div class="layout__region layout__region--content">
+      
+
+
+  
+
+
+
+
+  
+
+
+    </div>
+  </div>
+
+
+  <div class="container">
+
+  <div class="layout layout--bootstrap-grid-row-1 row">
+                  <div class="layout__region layout__region--main col">
+          <div class="mt-3">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"><h2>A world-leading provider of quality mechanical seals</h2>
+<p>We’re far more than just a supplier of new and replacement parts. Our one overriding aim is to exceed expectation: for delivery, quality, reliability and service.</p>
+
+<p>AESSEAL<sup>®</sup> products are in demand worldwide, and across all industry sectors. Wherever we supply, the story is the same: our sealing technology delivers increased reliability, demonstrated by improved mean time between failure.</p>
+
+<p>Though we have particular expertise in Oil &amp; Gas, our reputation for customer service and product performance is spreading quickly, and today we are working with an impressive portfolio of customers, in an equally impressive range of industries.</p>
+
+<div class="alert alert-primary" role="alert">You will find more details about us by navigating through the industry sections, where you will also have access to our sector-specific information about how we can benefit your business.</div>
+
+<div class="row">
+    <div class="col-sm-8">
+        <h3>Automotive</h3>
+        <p>AESSEAL<sup>®</sup> supplies reliable mechanical seal technology and systems that increase uptime of pump equipment to help companies achieve higher quality.</p>
+        <p><a href="/en/industry/automotive" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/automotive">
+            <img alt="Automotive" loading="lazy" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Industry-Solutions.jpg" class="img-fluid float-end"></a>
+    </div>
+</div>
+<hr><div class="row">
+    <div class="col-sm-8">
+        <h3>Biofuels</h3>
+        <p>AESSEAL<sup>®</sup> is a market-leader in this industry with over 4,000 seal installations and 2,500 system installations.</p>
+        <p><a href="/en/industry/biofuels" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/biofuels">
+            <img loading="lazy" alt="Biofuels" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Biofuels.jpg" class="img-fluid float-end"></a>
+    </div>
+</div>
+<hr><div class="row">
+    <div class="col-sm-5">
+        <h3>Chemical &amp; Pharmaceutical</h3>
+        <p>AESSEAL<sup>®</sup> has developed innovative new sealing solutions to the myriad challenges of these industries.</p>
+        <p><a href="/en/industry/chemical-and-pharmaceutical" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-3">
+        <a href="/en/resources/industry-guides/chemical-processing-industry-sealing-products">
+            <img loading="lazy" alt="Chemical Processing Industry Sealing Products" class="img-fluid w-50 mx-auto d-block hover-grow image-highlight" src="https://static.aesseal.com/content-image/industry/LIT-UK-L-CHEMICAL_Page_01.jpg"></a>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/chemical-and-pharmaceutical">
+            <img loading="lazy" alt="Chemical &amp; Pharmaceutical" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Chemical.jpg" class="img-fluid float-end"></a>
+    </div>
+</div>
+<hr><div class="row">
+    <div class="col-sm-5">
+        <h3>Food &amp; Beverage</h3>
+        <p>AESSEAL<sup>®</sup> has inventoried solutions to suit many types of equipment found in this industry and has proven expertise in the processes.</p>
+        <p><a href="/en/industry/food-and-beverage" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-3">
+        <a href="/en/resources/industry-guides/food-and-beverage-industry-products">
+            <img loading="lazy" alt="Food and Beverage Industry Products" class="img-fluid w-50 mx-auto d-block hover-grow image-highlight" src="https://static.aesseal.com/content-image/industry/FandB_cover.jpg"></a>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/food-and-beverage">
+            <img loading="lazy" alt="Food &amp; Beverage" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Food-and-beverage.jpg" class="img-fluid float-end"></a>
+    </div>
+</div>
+<hr><div class="row padding-bottom-2em">
+    <div class="col-sm-8">
+        <h3>Marine</h3>
+        <p>AESSEAL<sup>®</sup> supplying reliable sealing solutions for all your on-board needs.</p>
+        <p><a href="/en/industry/marine" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/marine">
+            <img loading="lazy" alt="Marine" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Marine.jpg" class="img-fluid float-end"></a>
+    </div>
+</div>
+<hr><div class="row">
+    <div class="col-sm-8">
+        <h3>Metal Processing</h3>
+        <p>AESSEAL<sup>®</sup> has a range of sealing technologies to increase reliability for all stages of metal processing.</p>
+        <p><a href="/en/industry/metal-processing" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/metal-processing">
+            <img loading="lazy" alt="Metal Processing" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Metal-Processing.jpg" class="img-fluid float-end"></a>
+    </div>
+</div>
+<hr><div class="row">
+    <div class="col-sm-5">
+        <h3>Mining &amp; Minerals</h3>
+        <p>AESSEAL<sup>®</sup> mining solutions are designed to handle the most arduous applications.</p>
+        <p><a href="/en/industry/mining-and-minerals" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-3">
+        <a href="/en/resources/industry-guides/mining-minerals-industry-sealing-products">
+            <img loading="lazy" alt="Mining &amp; Minerals Industry Sealing Products" class="img-fluid w-50 mx-auto d-block hover-grow image-highlight" src="https://static.aesseal.com/content-image/industry/MandM_cover.jpg"></a>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/mining-and-minerals">
+            <img loading="lazy" alt="Mining &amp; Minerals" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Mining-and-Minerals.jpg" class="img-fluid float-end"></a> 
+    </div>
+</div>
+<hr><div class="row">
+    <div class="col-sm-5">
+        <h3>Oil &amp; Gas</h3>
+        <p>Our competitive, and continuing, advantage in this sector comes from offering innovative solutions with measurable value.</p>
+        <p><a href="/en/industry/oil-and-gas" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-3">
+        <a href="/en/resources/industry-guides/oil-gas-industry-products">
+            <img loading="lazy" alt="Oil &amp; Gas Industry Products" class="img-fluid w-50 mx-auto d-block hover-grow image-highlight" src="https://static.aesseal.com/content-image/industry/OGP_cover.jpg"></a>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/oil-and-gas">
+        <img loading="lazy" alt="Oil &amp; Gas" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Oil-and-Gas.jpg" class="img-fluid float-end"></a>
+    </div>
+</div>
+<hr><div class="row">
+    <div class="col-sm-8">
+        <h3> Power Generation</h3>
+        <p>AESSEAL<sup>®</sup> is probably the only global seal solution provider who can address all the seal issues in this market.</p>
+        <p><a href="/en/industry/power-generation" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/power-generation">
+            <img loading="lazy" alt="Power Generation" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Power-Generation.jpg" class="img-fluid float-end"></a>
+    </div>
+</div>
+<hr><div class="row">
+    <div class="col-sm-5">
+        <h3>Pulp &amp; Paper</h3>
+        <p>AESSEAL<sup>®</sup> has introduced a range of innovative, patented products to meet the vast range of demands of the pulp and paper and paper-recycling industries.</p>
+        <p><a href="/en/industry/pulp-and-paper" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-3">
+        <a href="/en/resources/industry-guides/pulp-paper-application-guide">
+            <img alt="Pulp &amp; Paper Application Guide" class="img-fluid w-50 mx-auto d-block hover-grow image-highlight" src="https://static.aesseal.com/content-image/industry/LIT-UK-L-PPG_Page_01.jpg"></a>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/pulp-and-paper">
+            <img loading="lazy" alt="Pulp &amp; Paper" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Pulp-and-Paper.jpg" class="img-fluid float-end"></a>
+    </div>
+</div>
+<hr><div class="row">
+    <div class="col-sm-8">
+        <h3>Water &amp; Waste Water</h3>
+        <p>AESSEAL<sup>®</sup> has sealing technology solutions, with proven-reliability, for each stage of the process.</p>
+        <p><a href="/en/industry/water-and-waste-water" class="btn btn-primary">Read More</a></p>
+    </div>
+    <div class="col-sm-4">
+        <a href="/en/industry/water-and-waste-water">
+            <img loading="lazy" alt="Water and Waste Water" src="https://static.aesseal.com/photo/wavehead/wideformatmobile/Water-and-Waste-Water.jpg" class="img-fluid float-end"></a>
+    </div>
+</div>
+<hr></div>
+      </div>
+</div>
+
+
+</div>
+
+        </div>
+            </div>
+
+  </div>
+
+
+  </div>
+
+</article>
+
+
+</div>
+
+  </div>
+
+              </section>
+
+            
+	  	  	      <div class="row g-0"> 
+		      <div>
+    <div id="block-aesbase-ourphilosophyinindustries">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"><div class="row flex midgrey-background p-0">
+<div class="col-lg-5 col-md-6 col-sm-7 col-xs-4 g-0">
+<img alt="Questions about UK customer service operations" class="img-fluid blend-mode-multiply" loading="lazy" src="https://static.aesseal.com/photo/stock-photo-comp-1727599444.jpg"></div>
+<div class="col-lg-7 col-md-6 col-sm-5 col-xs-8 align-self-center px-5 py-2">
+<h4>Our philosophy, like our ordering process, is simple:</h4>
+<p>We'll do whatever it takes to deliver, wherever and whenever it's needed. Our aim is to consistently exceed expectation and meet even the most complex briefs and challenging lead times.</p>
+<p>Through continuous investment, unique modular technology and an unparalleled dedication to customer service we aim to constantly exceed expectation.</p>
+<p><a href="/en/about-us" type="button" class="btn btn-light px-4">Find out more about us</a></p>
+</div>
+</div></div>
+      </div>
+</div>
+
+
+</div>
+
+  </div>
+
+      </div>
+		  	  
+    </div>
+  </main>
+
+			  <div>
+    <div id="block-aesbase-enquiryiconnoncontactformpages">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"> <a id="enq-icon" class="enq-icon text-white enquiry-icon no-dash" href="/contact-us" target="_self" data-toggle="tooltip" data-placement="top" title="Contact Us">
+   <i class="fas fa-question fa-2x"></i>
+</a></div>
+      </div>
+</div>
+
+
+</div>
+
+  </div>
+
+	
+<div class="row gx-0"> 
+
+  
+    <section class="col-sm-12">
+	  	    		    <div>
+    <div id="block-aesbase-followusfooter">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"><div class="text-bg-secondary p-5">
+    <h2 class="text-center">Follow Us</h2>
+    <div class="row">
+
+        <div class="col-lg-3 col-md-2 col-sm-1">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#primary" role="button" aria-controls="offcanvasprimary">
+                <i class="fas fa-language me-1"></i>
+                Language
+            </a>
+        </div>
+
+        <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="row">
+
+                <div class="col-xs-12">
+                    <div class="row row-flex-col">
+
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <div class="card h-100 card-default widget-flex">
+                                <p class="card-body px-2 py-1 social-body standard-text">Follow us on Twitter</p>
+                                <div class="card-heading no-padding">
+                                    <a href="https://twitter.com/AESSEALplc" target="_self" title="AESSEAL Twitter">
+                                        <div class="css-fade">
+                                            <img class="img-fluid center-block no-padding" src="https://static.aesseal.com/graphics/twitter-panel-over.png" alt="twitter page link"><div class="css-fade-twitter"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <div class="card h-100 card-default widget-flex">
+                                <p class="card-body px-2 py-1 social-body standard-text">Subscribe to our YouTube Channel</p>
+                                <div class="card-heading no-padding">
+                                    <a href="https://www.youtube.com/channel/UCgMnROdfT9mJcgCbIkZWjQA" target="_self" title="AESEEAL YouTube">
+                                        <div class="css-fade">
+                                            <img class="img-fluid center-block" src="https://static.aesseal.com/graphics/youtube-panel-over.png" alt="youtube channel link"><div class="css-fade-youtube"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <div class="card h-100 card-default widget-flex">
+                                <p class="card-body px-2 py-1 social-body standard-text">Keep up to date on LinkedIn</p>
+                                <div class="card-heading no-padding">
+                                    <a href="http://www.linkedin.com/company/aesseal" target="_self" title="AESEEAL Linkedin">
+                                        <div class="css-fade">
+                                            <img class="img-fluid center-block" src="https://static.aesseal.com/graphics/linkedin-panel-over.png" alt="LinkedIn company link"><div class="css-fade-linkedin"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <div class="card h-100 card-default widget-flex">
+                            <p class="card-body px-2 py-1 social-body standard-text">Get the picture on Instagram</p>
+                                <div class="card-heading no-padding">
+                                    <a href="https://www.instagram.com/aesseal_plc/" target="_self" title="AESEEAL Instagram">
+                                        <div class="css-fade">
+                                            <img class="img-fluid center-block" src="https://static.aesseal.com/graphics/instagram-panel-over.png" alt="instagram page link"><div class="css-fade-instagram"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-2 col-sm-1">
+            <a class="btn btn-primary float-end" data-bs-toggle="offcanvas" href="#secondary" role="button" aria-controls="offcanvassecondary">
+                <i class="fas fa-ellipsis-v me-2"></i>Sub Menu</a>
+        </div>
+    </div>
+</div></div>
+      </div>
+</div>
+
+
+</div>
+
+  </div>
+
+	    	    </section>
+
+  </div>
+
+
+
+      <footer class="footer pt-0 mt-auto" role="contentinfo">
+        <div>
+    <div id="block-aessealfooter">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"><div class="text-bg-primary">
+<div class="container">
+    <div class="row row-eq-height flex-wrap py-5">
+        <div class="col-sm-6 offset-sm-0 col-xs-12 col-12">
+            <p class="lh-lg">
+                <a class="text-light" href="/en/resources/policy/modern-slavery-statement" rel="nofollow">Modern Slavery Policy</a>
+                <br><a class="text-light" href="/en/privacy-policy" rel="nofollow">Privacy Policy</a>
+                <br><a class="text-light" href="/en/terms-and-conditions" rel="nofollow">Legal Documents, Terms and Conditions</a>
+                <br><a class="text-light" href="/en/about-us" rel="nofollow">About Us</a>
+                <br><a class="text-light" href="/en/sitemap" rel="nofollow">Sitemap</a>
+                <br><a class="text-light" href="/en/contact-us" rel="nofollow">Contact Us</a>
+           </p>
+        </div>
+        <div class="col-sm-6 offset-sm-0 col-xs-8 offset-xs-2 col-8 offset-2 flex-item-bottom pb-5">
+            <div class="row">
+                <div class="col-md-4 col-sm-5 col-xs-6 col-6 mt-1">
+                    <picture><img class="footerlogos lazyaspectratio img-fluid lazyload hover-grow" alt="Investors in People" data-toggle="tooltip" data-placement="top" title="Investors in People" src="https://static.aesseal.com/graphics/Investors-In-People-White.svg"></picture></div>
+                <div class="col-md-2 col-sm-3 offset-sm-0 col-xs-3 offset-xs-1 col-3 offset-1">
+                    <picture><img class="footerlogos lazyaspectratio img-fluid lazyload hover-grow" data-toggle="tooltip" data-placement="top" title="Queen’s Award for Enterprise" alt="Queen’s Award for Enterprise" src="https://static.aesseal.com/graphics/Queens-Award-2021.svg"></picture></div>
+                <div class="col-md-2 col-sm-3 offset-sm-0 col-xs-3 offset-xs-1 col-3 offset-1">
+                    <picture><img class="footerlogos lazyaspectratio img-fluid lazyload hover-grow" data-toggle="tooltip" data-placement="top" title="Queen’s Award for Sustainable Development" alt="Queen’s Award for Sustainable Development" src="https://static.aesseal.com/graphics/Queens-Award-2022.svg"></picture></div>
+                <div class="col-md-4 col-sm-7 col-xs-8 col-8 pt-2 pe-2">
+                    <picture><img class="footerlogos img-fluid lazyload hover-grow" alt="AESSEAL plc goes beyond Net Zero" data-toggle="tooltip" data-placement="top" title="AESSEAL plc goes beyond Net Zero" src="https://static.aesseal.com/graphics/net-zero-logo-white.svg"></picture></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div></div>
+      </div>
+</div>
+
+
+</div>
+<div id="block-aesbase-sharelinks">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"><div id="shareOverlay" class="share-overlay">
+    <div class="overlay-content row">
+        <div class="col-lg-8 col-sm-10 offset-lg-2 offset-sm-1">
+            <h2 class="text-white text-center display-5 mb-5">Share this page</h2>
+            <div class="share-links">
+                <ul class="list-unstyled justify-content-center list-group list-group-horizontal"><li><a class="text-white me-5 btn btn-lg btn-danger" href="mailto:?subject=Industry&amp;body=http://docker.aesseal.com:8080/en/industry"><i class="fas fa-at"></i> Email</a></li>
+                    <li><a class="text-white me-5 btn btn-lg btn-success" href="https://www.linkedin.com/sharing/share-offsite/?url=http://docker.aesseal.com:8080/en/industry"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a class="text-white btn btn-lg btn-primary" href="https://twitter.com/intent/tweet?url=http://docker.aesseal.com:8080/en/industry"><i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul></div>
+        </div>
+        <div class="col-lg-8 col-sm-10 offset-lg-2 offset-sm-1 mt-6 text-white">
+            <h2 class="text-center display-5 mb-5">Meta Preview</h2>
+            <h4>Industry</h4>
+            <img src="https://static.aesseal.com/graphics/AESSEAL-og-seal-image.jpg" alt="Industry">
+            http://docker.aesseal.com:8080/en/industry
+       </div>
+    </div>
+</div></div>
+      </div>
+</div>
+
+
+</div>
+<div id="block-aesbase-searchoverlay">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"><div id="searchOverlay" class="search-overlay">
+    <div class="overlay-content row">
+        <div class="col-lg-8 col-sm-10 offset-lg-2 offset-sm-1">
+            <div id="searchbox"><div class="ais-SearchBox"><form action="" role="search" class="ais-SearchBox-form search-block" novalidate=""><input class="ais-SearchBox-input form-control" type="search" placeholder="Enter Your Keywords" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="512"><button class="ais-SearchBox-submit btn btn-primary" type="submit" title="Submit the search query."><svg class="ais-SearchBox-submitIcon text-white" width="10" height="10" viewBox="0 0 40 40" aria-hidden="true"><path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z"></path></svg></button><button class="ais-SearchBox-reset" type="reset" title="Clear the search query." hidden=""><svg class="ais-SearchBox-resetIcon" viewBox="0 0 20 20" width="10" height="10" aria-hidden="true"><path d="M8.114 10L.944 2.83 0 1.885 1.886 0l.943.943L10 8.113l7.17-7.17.944-.943L20 1.886l-.943.943-7.17 7.17 7.17 7.17.943.944L18.114 20l-.943-.943-7.17-7.17-7.17 7.17-.944.943L0 18.114l.943-.943L8.113 10z"></path></svg></button><span class="ais-SearchBox-loadingIndicator" hidden=""><svg class="ais-SearchBox-loadingIcon" width="16" height="16" viewBox="0 0 38 38" stroke="#444" aria-hidden="true"><g fill="none" fillRule="evenodd"><g transform="translate(1 1)" strokeWidth="2"><circle strokeOpacity=".5" cx="18" cy="18" r="18"></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="1s" repeatCount="indefinite"></animateTransform></path></g></g></svg></span></form></div></div>
+            <div id="stats"></div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div id="clear-refinements"></div>
+                        <div id="type-list"><div class="ais-Panel pt-3 ais-Panel--noRefinement" hidden=""><div class="ais-Panel-header"><span><h4>Filter by Content Type</h4></span></div><div class="ais-Panel-body"><div></div></div></div>
+                        </div>
+                        <div id="lang-list"><div class="ais-Panel pt-5 ais-Panel--noRefinement" hidden=""><div class="ais-Panel-header"><span><h4>Select your Language</h4></span></div><div class="ais-Panel-body"><div></div></div></div>
+                        </div>
+                </div>
+    
+                <div class="col-sm-8">
+                    <div id="hits"></div>
+                    <div id="pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+      </div>
+</div>
+
+
+</div>
+<div id="block-1stpartofthefooter">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"><div class="midgrey-background">
+    <div class="row">
+        <div class="col-md-9 col-sm-8 hidden-xs">
+            &nbsp;
+        </div>
+        <div class="col-md-3 col-sm-4 height-0 hidden-xs">
+            <img class="footer-curve" src="/assets/images/graphics/slim-lower-wave-grey.svg" alt="curve-down"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <p class="standard-text small">
+                AESSEAL<sup>®</sup> is a trademark of AESSEAL plc. Registered in the UK No. 2101607 | AESSEAL Global Technology Centre, Mill Close, Rotherham, South Yorkshire S60 1BZ
+            </p>
+        </div>
+    </div>
+</div></div>
+      </div>
+</div>
+
+
+</div>
+<div id="block-aesbase-hubspotcode">
+
+
+
+  
+<div>
+    <div class="field--items">
+          <div class="field--item"><!-- Start of HubSpot Embed Code -->
+  <script src="https://js.hsleadflows.net/leadflows.js" type="text/javascript" id="LeadFlows-2248916" crossorigin="anonymous" data-leadin-portal-id="2248916" data-leadin-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="2248916" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hs-banner.com/2248916.js" type="text/javascript" id="cookieBanner-2248916" data-cookieconsent="ignore" data-hs-ignore="true" data-loader="hs-scriptloader" data-hsjs-portal="2248916" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hs-analytics.net/analytics/1711098000000/2248916.js" type="text/javascript" id="hs-analytics"></script><script src="https://js.hubspotfeedback.com/feedbackweb-new.js" type="text/javascript" id="hs-feedback-web-2248916" crossorigin="anonymous" data-hubspot-feedback-portal-id="2248916" data-hubspot-feedback-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="2248916" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.usemessages.com/conversations-embed.js" type="text/javascript" id="hubspot-messages-loader" data-loader="hs-scriptloader" data-hsjs-portal="2248916" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script type="text/javascript" id="hs-script-loader" async="" defer="defer" src="//js-na1.hs-scripts.com/2248916.js"></script><!-- End of HubSpot Embed Code --><p class="float-end">Hubspot is tracking</p></div>
+      </div>
+</div>
+
+
+</div>
+
+  </div>
+
+    </footer>
+  
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"en\/","currentPath":"node\/905","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"59683b5710242fe4166b005846e9c9aff89db28c33e47c49e9ad0beaf8412aa7"}}</script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.1.6"></script>
+<script src="/core/misc/drupal.js?v=10.1.6"></script>
+<script src="/core/misc/drupal.init.js?v=10.1.6"></script>
+<script src="/libraries/bootstrap/dist/js/bootstrap.bundle.min.js?saluco"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.19.1/dist/algoliasearch-lite.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.56.7/dist/instantsearch.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+<script src="/assets/js/tiny-slider.js?saluco"></script>
+<script src="/assets/js/nav-scroll.js?saluco"></script>
+<script src="/assets/js/menu-collapse.js?saluco"></script>
+<script src="/assets/js/nav-btn.js?saluco"></script>
+<script src="/assets/js/init-bs.js?saluco"></script>
+<script src="/assets/js/site-search.js?saluco"></script>
+<script src="/assets/js/banner-vid.js?saluco"></script>
+<script src="/assets/js/svg-map-click.js?saluco"></script>
+<script src="/assets/js/lazyload-background-img.js?saluco"></script>
+<script src="/themes/contrib/ui_suite_bootstrap/assets/js/accessibility.js?saluco"></script>
+
+  
+
+</body></html>
